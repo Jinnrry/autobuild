@@ -5,11 +5,9 @@ import (
 	"github.com/mitchellh/go-homedir"
 	"golang.org/x/crypto/ssh"
 	"gopkg.in/go-playground/webhooks.v5/github"
-	_ "gopkg.in/go-playground/webhooks.v5/github"
 	"io/ioutil"
 	"log"
 	"net/http"
-	_ "net/http"
 	"time"
 )
 
