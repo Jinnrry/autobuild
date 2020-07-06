@@ -1,0 +1,1 @@
+nohup sh -c 'git pull && docker-compose up -d --build  && docker system prune --all --force --volumes' > build.log 2>&1 &
